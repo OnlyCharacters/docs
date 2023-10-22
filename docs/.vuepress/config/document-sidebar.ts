@@ -9,8 +9,8 @@ export function getDocumentSidebar (
         path: path,
         collapsable: false,
         children: [
-            path + "syncthing",
-            path + "docker",
+            path + "syncthing/",
+            path + "docker/",
         ]
    }
 }
