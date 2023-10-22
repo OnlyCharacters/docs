@@ -1,6 +1,6 @@
 ---
 home: true
-title: 首页
+title: 文档首页
 heroText: OnlyLetter's docs
 tagline: 诗酒趁年华
 actionText: Get Started →
