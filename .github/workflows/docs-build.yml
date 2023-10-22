@@ -12,7 +12,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: OnlyCharacters/docs
-        TARGET_BRANCH: docs
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn run build
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://docs.ireina.io
