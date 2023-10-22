@@ -1,8 +1,8 @@
 import * as document_sidebar from "./config/document-sidebar";
 
 module.exports = {
+    base: "/docs/",
     themeConfig: {
-        base: "/docs/",
         repo: "OnlyCharacters/docs",
         repoLabel: "GitHub",
         editLinks: true,
