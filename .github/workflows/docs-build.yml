@@ -34,7 +34,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: docs/.vuepress/dist
       - name: Build for Main Repository
         env:
@@ -45,7 +45,7 @@ jobs:
       - name: Deploy to main Repository
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.ACTION_PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: docs/.vuepress/dist
           external_repository: OnlyCharacters/docs
           publish_branch: gh-pages
