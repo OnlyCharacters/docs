@@ -2,11 +2,17 @@ import * as document_sidebar from "./config/document-sidebar";
 
 module.exports = {
     themeConfig: {
+        base: "/docs/",
+        repo: "OnlyCharacters/docs",
+        repoLabel: "GitHub",
+        editLinks: true,
+        docsDir: 'docs',
+        docsBranch: 'main',
         nav: [
             { text: '首页', link: '/' },
             { text: '文档', link: '/document/' },
         ],
-        lastUpdated: 'Last Updated',
+        lastUpdated: '最后编辑于',
         sidebarDepth: 2,
         // displayAllHeaders: true,
         sidebar: [
