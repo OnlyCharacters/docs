@@ -1,6 +1,7 @@
 import * as document_sidebar from "./config/document-sidebar";
 
 module.exports = {
+    title: "文档",
     themeConfig: {
         repo: "OnlyCharacters/docs",
         repoLabel: "GitHub",

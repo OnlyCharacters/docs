@@ -1,7 +1,6 @@
 ---
 home: true
-title: 文档首页
-heroText: OnlyLetter's docs
+heroText: 文档首页
 tagline: 诗酒趁年华
 actionText: Get Started →
 actionLink: /document/
