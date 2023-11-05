@@ -11,6 +11,7 @@ export function getDocumentSidebar (
         children: [
             path + "syncthing/",
             path + "docker/",
+            path + "k8s/"
         ]
    }
 }
