@@ -33,6 +33,19 @@ export function getDocumentSyncthingSidebar (
     }
 }
 
+export function getDocumentk8sSidebar (
+    docker : string,
+    path : string
+) : SidebarConfig {
+    return {
+        title: docker,
+        path: path,
+        collapsable: false,
+        children: [
+        ]
+    }
+}
+
 export function getDocumentDockerSidebar (
     docker : string,
     path : string

@@ -27,6 +27,10 @@ module.exports = {
             document_sidebar.getDocumentDockerSidebar(
                 "Docker",
                 "/document/docker/"
+            ),
+            document_sidebar.getDocumentk8sSidebar(
+                "k8s",
+                "/document/k8s/"
             )
         ]
     }
