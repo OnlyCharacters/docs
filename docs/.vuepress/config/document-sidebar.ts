@@ -58,3 +58,16 @@ export function getDocumentDockerSidebar (
         ]
     }
 }
+
+export function getDocumentOpenrestySidebar (
+    docker : string,
+    path : string
+) : SidebarConfig {
+    return {
+        title: docker,
+        path: path,
+        collapsable: false,
+        children: [
+        ]
+    }
+}

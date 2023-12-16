@@ -16,10 +16,10 @@ module.exports = {
         sidebarDepth: 2,
         // displayAllHeaders: true,
         sidebar: [
-            document_sidebar.getDocumentSidebar(
-                "文档目录",
-                "/document/"
-            ),
+            // document_sidebar.getDocumentSidebar(
+            //     "文档目录",
+            //     "/document/"
+            // ),
             document_sidebar.getDocumentSyncthingSidebar(
                 "Syncthing",
                 "/document/syncthing/"
@@ -31,6 +31,10 @@ module.exports = {
             document_sidebar.getDocumentk8sSidebar(
                 "k8s",
                 "/document/k8s/"
+            ),
+            document_sidebar.getDocumentOpenrestySidebar(
+                "Openresty",
+                "/document/openresty/"
             )
         ]
     }
