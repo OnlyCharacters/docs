@@ -68,6 +68,8 @@ export function getDocumentOpenrestySidebar (
         path: path,
         collapsable: false,
         children: [
+            path + "1.21.4.3.md",
+            path + "1.25.3.1.md",
         ]
     }
 }
